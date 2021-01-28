@@ -1,0 +1,5 @@
+Usage:
+See ./sbrod -h
+
+Install a custom scoring pipeline (e.g. trained on a different dataset):
+Replace scoring model "pipeline.pkl" in directory "./base" with the desired one
