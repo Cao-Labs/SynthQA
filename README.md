@@ -9,12 +9,19 @@ This tool requires Python 3.7, as well as the latest versions of the following:
 - h5py
 
 ## Installation
+**NOTE**: This tool was tested on `Ubuntu 20.04 LTS`. Installation and requirements may vary on other operating systems.
+
+After installing ANDIS, be sure to modify execution permissions with this
+command: `chmod +x ANDIS`.
+
 In main.py, please change the following variables found at the top of the file:
 - Change **QA_DIR** to the absolute path of this tool's directory.
 - Change **ANDIS_PATH** to the absolute path of your installed ANDIS directory.
 
 You can install the required Python libraries using requirements.txt:
 `pip3 install -r requirements.txt`
+
+Remember to also download and install PyRosetta4 (http://www.pyrosetta.org/dow) before proceeding.
 
 ## Running
 Example usage:
