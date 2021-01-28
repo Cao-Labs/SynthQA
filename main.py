@@ -22,8 +22,8 @@ start_time = time.monotonic()
 ################################################################################
 # GLOBALS ----------------------------------------------------------------------
 ###############################G#################################################
-QA_DIR = "/data/shared/tools/MikhailQA_v2" # the main directory of this tool
-ANDIS_PATH = "/home/korovnmm/summer2020M/QA/tools/ANDIS"
+QA_DIR = "/path/to/SynthQA" # the main directory of this tool
+ANDIS_PATH = "/path/to/ANDIS"
 NUM_FEATURES = 14 # the number of non-TopQA features we trained on, do not modify unless you're training your own models.
 
 ################################################################################
