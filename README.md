@@ -1,4 +1,4 @@
-# SynthAssess - Hierarchy-based Quality Assessment
+# SynthQA - Hierarchical Machine Learning-basedProtein Quality Assessment
 ## Dependancies
 This tool requires Python 3.7, as well as the latest versions of the following:
 - [ANDIS (standalone version)](http://qbp.hzau.edu.cn/ANDIS/)  
@@ -30,7 +30,7 @@ python main.py -i ./input_folder_name -o output_folder_name
 ```
 The input folder must contain at least one protein model (PDB format) for this tool to work.
 
-## Example Results
+## Testing
 A sample output can be found in `example/sample_output`. It was generated using the following command:
 ```
 python main.py -i ./example/T0953s2 -o ./example/sample_output
