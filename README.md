@@ -1,4 +1,6 @@
 # SynthQA - Hierarchical Machine Learning-based Protein Quality Assessment
+**doi**: https://doi.org/10.1101/2021.01.28.428710  
+
 ## Dependancies
 This tool requires Python 3.7, as well as the latest versions of the following:
 - [ANDIS (standalone version)](http://qbp.hzau.edu.cn/ANDIS/)  
